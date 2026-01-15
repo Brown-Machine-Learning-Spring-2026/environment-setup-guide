@@ -1,4 +1,4 @@
-# CS1420 Python Virtual Environment Setup 2025
+# CS1420 Python Virtual Environment Setup 2026
 
 ## Brown CS Department Machine
 On Brown CS department machines, the virtual environment is already built and the packages are installed. You can directly activate it and subsequently use it by running the following command from your home directory:
