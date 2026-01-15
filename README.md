@@ -14,12 +14,12 @@ deactivate
 After deactivation, you will notice that `(cs142_env)` disappears from the beginning of the the prompt.
 
 ## Personal Mac
-### Install Python 3.9
-First check whether Python 3.9 is already installed by running
+### Install Python 3.13
+First check whether Python 3.13 is already installed by running
 ```bash
-python3.9 -V
+python3.13 -V
 ```
-Install Python [3.9.13](https://www.python.org/downloads/release/python-3913/) as needed (`macOS 64-bit universal2 installer` for Silicon and `macOS 64-bit Intel-only installer` for Intel).
+Install Python [3.13.11](https://www.python.org/downloads/release/python-31311/) as needed (`macOS 64-bit universal2 installer` for Silicon and `macOS 64-bit Intel-only installer` for Intel).
 
 ### Create a Folder for the Course
 How you structure your files is up to you, but we recommend making a main course directory to house the Python virtual environment and all the homeworks.  This would look something like the following:
@@ -37,7 +37,7 @@ You only need to do this once during setup. Afterwards, you can directly activat
 
 To create the virtual environment, navigate to your course directory that will contain all your cs1420 projects (`cs1420_code/` in the example file structure above), and run
 ```bash
-python3.9 -m venv env
+python3.13 -m venv env
 ```
 to create a directory `env/` that houses our virtual environment.
 
@@ -48,7 +48,7 @@ source env/bin/activate
 ```
 After activation, the prompt will change to begin with `(env)` to show that the virtual environment is active.
 
-While the virtual environment is active, you can call `python3.9` directly with `python` because that is the only python version that is linked in the virtual environment.
+While the virtual environment is active, you can call `python3.13` directly with `python` because that is the only python version that is linked in the virtual environment.
 
 ### Installing required cs1420 packages with pip
 Download the file `requirements.txt` from this repository and move it to you course directory.
@@ -71,16 +71,16 @@ from anywhere.
 After deactivation, you will notice that `(env)` disappears from the beginning of the the prompt.
 
 ## Personal Windows
-### Install Python 3.9
-First check whether Python 3.9 is already installed by running
+### Install Python 3.13
+First check whether Python 3.13 is already installed by running
 ```
-py -3.9
+py -3.13
 ```
 in command prompt or powershell and making sure there is no error.
 
-If you need to install Python 3.9, go <a href="https://www.python.org/downloads/windows/">here</a> and download and run the 64-bit Windows installer for Python 3.9.13:
+If you need to install Python 3.13, go <a href="https://www.python.org/downloads/windows/">here</a> and download and run the 64-bit Windows installer for Python 3.13.11:
 
-![The correct download link for Python 3.9.13 on Windows](imgs/windows_python_install_ss.png)
+![The correct download link for Python 3.13.11 on Windows](imgs/windows_python_install_ss.png)
 
 ### Install Microsoft's Build Tools for Visual Studio
 This installation is necessary for some of the packages we use for the course.
@@ -109,7 +109,7 @@ You only need to do this once during setup. Afterwards, you can directly activat
 
 To create the virtual environment, navigate to your course directory that will contain all your cs1420 projects (`cs1420_code/` in the example file structure above), and run
 ```
-py -3.9 -m venv env
+py -3.13 -m venv env
 ```
 to create a directory `env/` that houses our virtual environment.
 
@@ -120,7 +120,7 @@ From your course directory, run
 ```
 After activation, the prompt will change to begin with `(env)` to show that the virtual environment is active.
 
-While the virtual environment is active, you can call `python3.9` directly with `python` because that is the only python version that is linked in the virtual environment.
+While the virtual environment is active, you can call `python3.13` directly with `python` because that is the only python version that is linked in the virtual environment.
 
 ### Installing required cs1420 packages with pip
 Download the file `requirements.txt` from this repository and move it to you course directory.
