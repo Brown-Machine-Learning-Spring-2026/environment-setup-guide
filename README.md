@@ -3,15 +3,15 @@
 ## Brown CS Department Machine
 On Brown CS department machines, the virtual environment is already built and the packages are installed. You can directly activate it and subsequently use it by running the following command from your home directory:
 ```bash
-source /course/cs1420/cs142_env/bin/activate
+source /course/cs1420/env/bin/activate
 ```
-The prompt will then change to begin with `(cs142_env)` to show that the virtual environment is active.
+The prompt will then change to begin with `(env)` to show that the virtual environment is active.
 
 Deactivate the virtual environment when you're done coding with
 ```bash
 deactivate
 ```
-After deactivation, you will notice that `(cs142_env)` disappears from the beginning of the the prompt.
+After deactivation, you will notice that `(env)` disappears from the beginning of the the prompt.
 
 ## Personal Mac
 ### Install Python 3.12
