@@ -78,9 +78,7 @@ py -3.12
 ```
 in command prompt or powershell and making sure there is no error.
 
-If you need to install Python 3.12, go <a href="https://www.python.org/downloads/windows/">here</a> and download and run the 64-bit Windows installer for Python 3.12.3:
-
-![The correct download link for Python 3.12.3 on Windows](imgs/windows_python_install_ss.png)
+If you need to install Python 3.12, go <a href="https://www.python.org/downloads/release/python-3123/">here</a> and download and run the Windows installer for Python 3.12.3:
 
 ### Install Microsoft's Build Tools for Visual Studio
 This installation is necessary for some of the packages we use for the course.
