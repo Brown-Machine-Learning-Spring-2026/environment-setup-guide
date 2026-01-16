@@ -11,7 +11,7 @@ Deactivate the virtual environment when you're done coding with
 ```bash
 deactivate
 ```
-After deactivation, you will notice that `(env)` disappears from the beginning of the the prompt.
+After deactivation, you will notice that `(env)` disappears from the beginning of the prompt.
 
 ## Personal Mac
 ### Install Python 3.12
@@ -53,7 +53,7 @@ While the virtual environment is active, you can call `python3.12` directly with
 ### Installing required cs1420 packages with pip
 Download the file `requirements.txt` from this repository and move it to you course directory.
 
-With the virtual environment active from the previous step and still in your course folder, use the following command to install the requried packages from pip.  This only needs to be done once during setup.
+With the virtual environment active from the previous step and still in your course folder, use the following command to install the required packages from pip.  This only needs to be done once during setup.
 ```bash
 # optional: update the essential packages
 pip3 install -U pip wheel setuptools
@@ -68,7 +68,7 @@ deactivate
 ```
 from anywhere.
 
-After deactivation, you will notice that `(env)` disappears from the beginning of the the prompt.
+After deactivation, you will notice that `(env)` disappears from the beginning of the prompt.
 
 ## Personal Windows
 ### Install Python 3.12
@@ -123,7 +123,7 @@ While the virtual environment is active, you can call `python3.12` directly with
 ### Installing required cs1420 packages with pip
 Download the file `requirements.txt` from this repository and move it to you course directory.
 
-With the virtual environment active from the previous step and still in your course folder, use the following command to install the requried packages from pip.  This only needs to be done once during setup.
+With the virtual environment active from the previous step and still in your course folder, use the following command to install the required packages from pip.  This only needs to be done once during setup.
 ```bash
 pip3 install -r requirements.txt
 ```
@@ -135,4 +135,4 @@ deactivate
 ```
 from anywhere.
 
-After deactivation, you will notice that `(env)` disappears from the beginning of the the prompt.
+After deactivation, you will notice that `(env)` disappears from the beginning of the prompt.
