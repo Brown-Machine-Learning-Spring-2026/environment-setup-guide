@@ -19,7 +19,7 @@ First check whether Python 3.12 is already installed by running
 ```bash
 python3.12 -V
 ```
-Install Python [3.12.3](https://www.python.org/downloads/release/python-3123/) as needed (`macOS 64-bit universal2 installer` for Silicon and `macOS 64-bit Intel-only installer` for Intel).
+Install Python [3.12.3](https://www.python.org/downloads/release/python-3123/) as needed.
 
 ### Create a Folder for the Course
 How you structure your files is up to you, but we recommend making a main course directory to house the Python virtual environment and all the homeworks.  This would look something like the following:
